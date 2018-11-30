@@ -1,6 +1,6 @@
 body {
-    background: #222;
-    color: #4A5664;
+    background: #2C3849;
+    color: #FFFFFF;
 }
 
 a {
@@ -8,11 +8,11 @@ a {
 }
 
     a:link, a:visited {
-        color: #94E864;
+        color: #4A5664;
     }
 
     a:hover, a:active, a:focus {
-        color: #c7c7c7;
+        color: #6698C8;
     }
 
 hr {
@@ -21,15 +21,15 @@ hr {
 }
 
 h1, h2, h3, h4 {
-    color: #4A5664;
+    color: #FFFFFF;
 }
 
     h1 a {
-        color: #4A5664;
+        color: #FFFFFF;
     }
 
         h1 a:active, h1 a:hover, h1 a:link, h1 a:visited {
-            color: #4A5664;
+            color: #FFFFFF;
         }
 
 .bordered {
