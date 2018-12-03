@@ -1596,17 +1596,17 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
     }
 
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
-    background: #222;
-    border-bottom: 1px solid #303E4D;
+    background: #303E4D;
+    border-bottom: 1px solid #4A5664;
     box-shadow: inset 1px 0 0 0 #222;
 }
 
 .messages_header {
-    color: #4A5664;
+    color: #ffffff;
 }
 
 .channel_title .channel_name_container .channel_name {
-    color: #4A5664;
+    color: #ffffff;
 }
 
     .channel_title .channel_name_container .channel_name.muted {
@@ -1630,12 +1630,12 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
 }
 
 .channel_header_info button {
-    color: #949494;
+    color: #6698C8;
 }
 
 .channel_title_info {
-    background: #222;
-    color: #949494;
+    background: #2C3849;
+    color: #FFFFFF;
 }
 
     .channel_title_info .channel_details_toggle, .channel_title_info .channel_actions_toggle {
@@ -1643,11 +1643,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
     }
 
 .channel_header_icon {
-    color: #4A5664;
+    color: #94E864;
 }
 
 .channel_calls_button .call_icon.call_window_offline {
-    color: #949494;
+    color: #FFFFFF;
 }
 
 .channel_actions_toggle.active:focus, .details_toggle.active:focus {
