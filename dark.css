@@ -4,7 +4,7 @@ body {
 }
 
 a {
-    color: #303E4D;
+    color: #ffffff;
 }
 
     a:link, a:visited {
@@ -141,7 +141,7 @@ h1, h2, h3, h4 {
 
 .p-channel_sidebar {
     background-color: #303E4D;
-    color: #4A5664;
+    color: #ffffff;
 }
 
 .p-channel_sidebar__channel, .p-channel_sidebar__channel:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__channel:hover, .p-channel_sidebar__link, .p-channel_sidebar__link:link, .p-channel_sidebar__link:visited, .p-channel_sidebar__link:hover {
@@ -161,11 +161,11 @@ h1, h2, h3, h4 {
 }
 
 .p-channel_sidebar__channel--im.p-channel_sidebar__channel--selected .c-presence, .p-channel_sidebar__channel--im-slackbot.p-channel_sidebar__channel--selected::before {
-    color: #4A5664;
+    color: #ffffff;
 }
 
 .p-channel_sidebar__channel--im .c-presence--away {
-    color: #949494;
+    color: #ffffff;
 }
 
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected {
@@ -185,11 +185,11 @@ h1, h2, h3, h4 {
     }
 
 .p-channel_sidebar__badge, .p-channel_sidebar__banner--mentions {
-    background: #bf360c;
+    background: #78AF8F;
 }
 
 .p-channel_sidebar .c-custom_scrollbar__thumb_vertical, .p-channel_sidebar .c-scrollbar__bar {
-    background: #545454;
+    background: #303E4D;
 }
 
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__quickswitcher:hover {
@@ -201,16 +201,16 @@ h1, h2, h3, h4 {
 }
 
 .channels_list_holder h2 {
-    color: #4A5664 !important;
+    color: #ffffff !important;
 }
 
     .channels_list_holder h2.hoverable:not(.jquery_hover):hover {
-        color: #4A5664;
+        color: #6698C8;
         opacity: 0.8;
     }
 
 .channels_list_holder ul {
-    color: #4A5664 !important;
+    color: #ffffff !important;
 }
 
     .channels_list_holder ul li {
@@ -280,16 +280,16 @@ h1, h2, h3, h4 {
     }
 
     #quick_switcher_btn:active, #quick_switcher_btn:hover {
-        background: #222;
+        background: #6698C8;
         border-color: #222;
     }
 
         #quick_switcher_btn:active > i, #quick_switcher_btn:hover > i {
-            color: #949494;
+            color: #4A5664;
         }
 
         #quick_switcher_btn:active #quick_switcher_label, #quick_switcher_btn:hover #quick_switcher_label {
-            color: #949494;
+            color: #4A5664;
         }
 
 #quick_switcher_label {
@@ -305,11 +305,11 @@ h1, h2, h3, h4 {
 }
 
 #loading_message p {
-    color: #4A5664;
+    color: #FFFFFF;
 }
 
 #loading_message #loading_message_attribution {
-    color: #949494;
+    color: #FFFFFF;
 }
 
 #loading_team_menu_bg, #loading_user_menu_bg {
@@ -322,15 +322,15 @@ h1, h2, h3, h4 {
 }
 
 .LoadingScreen-primaryText {
-    color: #4A5664;
+    color: #FFFFFF;
 }
 
 .LoadingScreen-secondaryText {
-    color: #4A5664;
+    color: #FFFFFF;
 }
 
 .LoadingScreen-link {
-    color: #949494;
+    color: #6698C8;
 }
 
 .infinite_spinner_bg, .infinite_spinner_blue {
@@ -353,20 +353,20 @@ input[type=text], input[type=password], input[type=datetime], input[type=datetim
     }
 
 input[type=file]:focus {
-    outline: #4A5664 dotted thin;
+    outline: #6698C8 dotted thin;
 }
 
 input[type=radio]:focus, input[type=checkbox]:focus {
-    outline: #4A5664 dotted thin;
+    outline: #6698C8 dotted thin;
 }
 
 select {
-    background: #545454;
+    background: #4A5664;
 }
 
 select, textarea {
     border: 1px solid #000;
-    color: #4A5664;
+    color: #FFFFFF;
 }
 
     select:active, select:focus, textarea:active, textarea:focus {
@@ -414,9 +414,9 @@ legend {
     }
 
 textarea {
-    background-color: #545454;
+    background-color: #2C3849;
     border: 1px solid #000;
-    color: #4A5664;
+    color: #FFFFFF;
 }
 
     textarea:focus {
